@@ -1,0 +1,63 @@
+/* 1. Set background color for the whole page */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Style the header */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 9px;
+  text-align: center;
+}
+
+/* 3. Style navigation links */
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* 4. Style all headings */
+h1, h2, h3 {
+  color: #003366;
+}
+
+/* 5. Style tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* 6. Style images */
+img {
+  border: 3px solid #003366;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #003366;
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+.highlight-box {
+  background-color: #f0f0f0;         
+  border: 2px solid #001f4d;         
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
