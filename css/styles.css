@@ -68,9 +68,10 @@ h1 {
 .highlight-box {
   background-color: #f0f0f0;         
   border: 2px solid #001f4d;         
-  padding: 15px;
-  border-radius: 10px;
-  margin-top: 20px;
+  padding: 8px 12px;                 
+  margin: 10px 0;                    
+  border-radius: 8px;                
+  font-size: 0.95em;                 
 }
 
 .callout-text {
@@ -80,4 +81,14 @@ h1 {
   padding: 10px 15px;
   border-left: 5px solid #001f4d;
   margin: 20px 0;
+}
+
+.linkedin-link a {
+  color: #0077b5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.linkedin-link a:hover {
+  text-decoration: underline;
 }
